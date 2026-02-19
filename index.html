@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goutom Das Dipto |  Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header class="header" id="header">
+            <nav class="nav container" aria-label="Main navigation">
+            <a href="#home" class="nav__logo">Portfolio</a>
+            <div class="nav__actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Toggle dark/light mode">
+                    <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true">☀</span>
+                    <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true">☽</span>
+                </button>
+                <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span class="nav__toggle-bar"></span>
+                <span class="nav__toggle-bar"></span>
+                <span class="nav__toggle-bar"></span>
+            </button>
+            </div>
+            <ul class="nav__menu" id="nav-menu">
+                <li><a href="#home" class="nav__link">Home</a></li>
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#skills" class="nav__link">Skills & Tools</a></li>
+                <li><a href="#coding-profiles" class="nav__link">Coding</a></li>
+                <li><a href="#projects" class="nav__link">Projects</a></li>
+                <li><a href="#education" class="nav__link">Education</a></li>
+                <li><a href="#achievements" class="nav__link">Achievements</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+        <!-- Hero Section -->
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <div class="container hero__content">
+                <p class="hero__greeting">Hello, I'm</p>
+                <h1 class="hero__title" id="hero-title">Goutom Das Dipto</h1>
+                <p class="hero__subtitle">Software Engineering Student </p>
+                <p class="hero__description">I'm passionate about building meaningful solutions through code. Exploring new technologies and turning ideas into reality.</p>
+                <div class="hero__buttons">
+                    <a href="#projects" class="btn btn--primary">View My Work</a>
+                    <a href="#contact" class="btn btn--outline">Get In Touch</a>
+                    <a href="https://goutom-2022831012.github.io/CV/" target="_blank" rel="noopener noreferrer" class="btn btn--outline">View CV</a>
+                </div>
+                <div class="hero__links">
+                    <a href="https://github.com/Goutom-2022831012" target="_blank" rel="noopener noreferrer" class="hero__social" aria-label="GitHub">GitHub</a>
+                    <a href="https://www.linkedin.com/in/goutom-dipto-5b2876356/" target="_blank" rel="noopener noreferrer" class="hero__social" aria-label="LinkedIn">LinkedIn</a>
+                </div>
+            </div>
+            <div class="hero__scroll">
+                <a href="#about" class="hero__scroll-link" aria-label="Scroll to about">
+                    <span class="hero__scroll-arrow"></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="about" aria-labelledby="about-title">
+            <div class="container">
+                <h2 class="section__title" id="about-title">About Me</h2>
+                <div class="about__content">
+                    <div class="about__text">
+                        <p>I'm a dedicated university student with a strong interest in software development and problem-solving. My academic journey has equipped me with both technical skills and a collaborative mindset.</p>
+                        <p>Outside of coursework, I enjoy working on personal projects, contributing to open source, and staying curious about emerging technologies. I believe in continuous learning and applying knowledge to real-world challenges.</p>
+                        <div class="about__stats">
+                            <div class="about__stat">
+                                <span class="about__stat-number">2+</span>
+                                <span class="about__stat-label">Years of Learning</span>
+                            </div>
+                            <div class="about__stat">
+                                <span class="about__stat-number">5+</span>
+                                <span class="about__stat-label">Projects Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__image">
+                       <div class="about__avatar">
+                         <img src="profile.jpeg" alt="Goutom Das Dipto" class="about__avatar-img">
+                          </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests Section -->
+        <section class="section interests" id="interests" aria-labelledby="interests-title">
+            <div class="container">
+                <h2 class="section__title" id="interests-title">Interests</h2>
+                <p class="section__subtitle">Music and performing arts</p>
+                <div class="interests__grid">
+                    <div class="interest__card">
+                        <span class="interest__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
+                        </span>
+                        <h3 class="interest__name">Singing</h3>
+                        <p class="interest__detail">Enlisted Bangladesh Betar Nazrul Singer</p>
+                    </div>
+                    <div class="interest__card">
+                        <span class="interest__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="13" rx="8" ry="5"/><path d="M4 13v2a8 5 0 0 0 16 0v-2"/><path d="M4 8a8 5 0 0 1 16 0"/></svg>
+                        </span>
+                        <h3 class="interest__name">Tabla</h3>
+                        <p class="interest__detail">20+ stage performances</p>
+                    </div>
+                    <div class="interest__card">
+                        <span class="interest__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m20.2 6.3-8.2 13.1a1 1 0 0 1-1.4.2 1 1 0 0 1-.2-1.4l8.2-13.1"/><path d="M4 20c0-8 4-12 4-12s4 4 4 12"/><path d="M12 8c0-2 2-4 2-4s2 2 2 4"/></svg>
+                        </span>
+                        <h3 class="interest__name">Guitar</h3>
+                        <p class="interest__detail">Playing & learning</p>
+                    </div>
+                    <div class="interest__card">
+                        <span class="interest__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16"/><circle cx="6" cy="12" r="1.5" fill="currentColor"/><circle cx="10" cy="12" r="1.5" fill="currentColor"/><circle cx="14" cy="12" r="1.5" fill="currentColor"/><circle cx="18" cy="12" r="1.5" fill="currentColor"/><path d="M4 12V8a2 2 0 0 1 2-2h2"/><path d="M20 12v1a2 2 0 0 1-2 2h-2"/></svg>
+                        </span>
+                        <h3 class="interest__name">Flute</h3>
+                        <p class="interest__detail">Learning</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills" id="skills" aria-labelledby="skills-title">
+            <div class="container">
+                <h2 class="section__title" id="skills-title">Skills</h2>
+                <p class="section__subtitle">Technologies and tools I work with</p>
+                <div class="skills__list">
+                    <div class="skill__item">
+                        <div class="skill__header">
+                            <h3>HTML</h3>
+                            <span class="skill__percent" aria-hidden="true">80%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__fill" style="--progress: 80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <p>Semantic markup, accessibility</p>
+                    </div>
+                    <div class="skill__item">
+                        <div class="skill__header">
+                            <h3>CSS</h3>
+                            <span class="skill__percent" aria-hidden="true">75%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__fill" style="--progress: 75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <p>Layouts, responsive design</p>
+                    </div>
+                    <div class="skill__item">
+                        <div class="skill__header">
+                            <h3>JavaScript</h3>
+                            <span class="skill__percent" aria-hidden="true">80%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__fill" style="--progress: 80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <p>DOM, ES6+, async</p>
+                    </div>
+                    <div class="skill__item">
+                        <div class="skill__header">
+                            <h3>Java</h3>
+                            <span class="skill__percent" aria-hidden="true">80%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__fill" style="--progress: 80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <p>OOP, core Java</p>
+                    </div>
+                    <div class="skill__item">
+                        <div class="skill__header">
+                            <h3>Python</h3>
+                            <span class="skill__percent" aria-hidden="true">50%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__fill" style="--progress: 50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <p>Scripting, data structures</p>
+                    </div>
+                    <div class="skill__item">
+                        <div class="skill__header">
+                            <h3>Database (SQL)</h3>
+                            <span class="skill__percent" aria-hidden="true">70%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__fill" style="--progress: 70" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <p>Queries, schema design</p>
+                    </div>
+                    <div class="skill__item">
+                        <div class="skill__header">
+                            <h3>GitHub</h3>
+                            <span class="skill__percent" aria-hidden="true">50%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__fill" style="--progress: 50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <p>Version control</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools Section -->
+        <section class="section tools" id="tools" aria-labelledby="tools-title">
+            <div class="container">
+                <h2 class="section__title" id="tools-title">Tools</h2>
+                <p class="section__subtitle">Software and tools I use in my workflow</p>
+                <div class="tools__grid">
+                    <span class="tools__item">VS Code</span>
+                    <span class="tools__item">Git / GitHub</span>
+                    <span class="tools__item">Figma</span>
+                    <span class="tools__item">Linux / Terminal</span>
+                    <span class="tools__item">React</span>
+                    <span class="tools__item">libGDX</span>
+                    <span class="tools__item">Tailwind</span>
+                    <span class="tools__item">FastAPI</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Coding Profiles Section -->
+        <section class="section coding-profiles" id="coding-profiles" aria-labelledby="coding-profiles-title">
+            <div class="container">
+                <h2 class="section__title" id="coding-profiles-title">Coding Profiles</h2>
+                <p class="section__subtitle">Problem-solving platforms and contest ratings</p>
+                <div class="coding-profiles__grid">
+                    <a href="https://vjudge.net/user/gd_146432" target="_blank" rel="noopener noreferrer" class="coding-profile__card" aria-label="View my VJudge profile">
+                        <h3 class="coding-profile__name">VJudge</h3>
+                        <div class="coding-profile__stats">
+                            <span class="coding-profile__stat">
+                                <strong>155+</strong> problems solved
+                            </span>
+                        </div>
+                        <span class="coding-profile__link">View Profile →</span>
+                    </a>
+                    <a href="https://codeforces.com/profile/goutomdipto794" target="_blank" rel="noopener noreferrer" class="coding-profile__card" aria-label="View my Codeforces profile">
+                        <h3 class="coding-profile__name">Codeforces</h3>
+                        <div class="coding-profile__stats">
+                            <span class="coding-profile__stat">
+                                <strong>335+</strong> problems solved
+                            </span>
+                            <span class="coding-profile__stat">
+                                <strong>1284</strong> rating
+                            </span>
+                        </div>
+                        <span class="coding-profile__link">View Profile →</span>
+                    </a>
+                    <a href="https://leetcode.com/u/Goutom12/" target="_blank" rel="noopener noreferrer" class="coding-profile__card" aria-label="View my LeetCode profile">
+                        <h3 class="coding-profile__name">LeetCode</h3>
+                        <div class="coding-profile__stats">
+                            <span class="coding-profile__stat">
+                                <strong>6</strong> problems solved
+                            </span>
+                            <span class="coding-profile__stat">
+                                <strong>Easy:</strong>5 · <strong>Med:</strong> 1 · <strong>Hard:</strong> 0
+                            </span>
+                        </div>
+                        <span class="coding-profile__link">View Profile →</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+       <!-- Projects Section -->
+<section class="section projects" id="projects" aria-labelledby="projects-title">
+    <div class="container">
+        <h2 class="section__title" id="projects-title">Projects</h2>
+        <p class="section__subtitle">A selection of my academic and personal work</p>
+
+        <div class="projects__grid">
+
+            <!-- POS System -->
+            <a href="https://github.com/Goutom-2022831012/pos-system.git" target="_blank" rel="noopener noreferrer" 
+               class="project__card" 
+               aria-label="View POS System on GitHub">
+
+                <div class="project__image">
+                    <div class="project__placeholder" role="img" aria-label="POS System project">💳</div>
+                </div>
+
+                <div class="project__content">
+                    <h3>Point of Sale (POS) System</h3>
+                    <p>Full-stack POS system with inventory management, billing, and authentication. Built using modern web technologies and REST APIs.</p>
+
+                    <div class="project__tags">
+                        <span>Next.js</span>
+                        <span>MySQL</span>
+                        <span>FastAPI</span>
+                        <span>TypeScript</span>
+                    </div>
+
+                    <span class="project__github">View on GitHub →</span>
+                </div>
+            </a>
+
+
+            <!-- Snake Game -->
+            <a href="https://github.com/Goutom-2022831012/Snake_Game.git" target="_blank" rel="noopener noreferrer" 
+               class="project__card" 
+               aria-label="View Snake Game on GitHub">
+
+                <div class="project__image">
+                    <div class="project__placeholder" role="img" aria-label="2D Snake Game project">🐍</div>
+                </div>
+
+                <div class="project__content">
+                    <h3>2D Snake Game</h3>
+                    <p>Classic snake game implemented in C++ using SDL2. Features real-time rendering, collision detection, and score tracking.</p>
+
+                    <div class="project__tags">
+                        <span>C++</span>
+                        <span>SDL2</span>
+                        <span>Game Development</span>
+                    </div>
+
+                    <span class="project__github">View on GitHub →</span>
+                </div>
+            </a>
+
+
+            <!-- Run From Ghosts -->
+            <a href="https://github.com/Goutom-2022831012/Run_From_Ghosts.git" target="_blank" rel="noopener noreferrer" 
+               class="project__card" 
+               aria-label="View Run From Ghosts on GitHub">
+
+                <div class="project__image">
+                    <div class="project__placeholder" role="img" aria-label="Run From Ghosts game project">👻</div>
+                </div>
+
+                <div class="project__content">
+                    <h3>Run From Ghosts</h3>
+                    <p>2D arcade-style game built with Java and LibGDX. Implements character movement, enemy AI, scoring system, and collision mechanics.</p>
+
+                    <div class="project__tags">
+                        <span>Java</span>
+                        <span>LibGDX</span>
+                        <span>Game Development</span>
+                    </div>
+
+                    <span class="project__github">View on GitHub →</span>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+        <!-- Education Section -->
+        <section class="section education" id="education" aria-labelledby="education-title">
+            <div class="container">
+                <h2 class="section__title" id="education-title">Education</h2>
+                <div class="education__timeline">
+                    <div class="education__item">
+                        <div class="education__year">2022 – Present</div>
+                        <div class="education__content">
+                            <h3>Bachelor of Software Engineering</h3>
+                            <p class="education__institution">Shahjalal University of Science and Technology</p>
+                        </div>
+                    </div>
+                    <div class="education__item">
+                        <div class="education__year">2020 – 2021</div>
+                        <div class="education__content">
+                            <h3>College</h3>
+                            <p class="education__institution">Govt. Science College</p>
+                        </div>
+                    </div>
+                    <div class="education__item">
+                        <div class="education__year">2018 – 2019</div>
+                        <div class="education__content">
+                            <h3></h3>
+                            <p class="education__institution">Chhatak Govt. Bahumukhi Model High School</p>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic Achievements Section -->
+        <section class="section achievements" id="achievements" aria-labelledby="achievements-title">
+            <div class="container">
+                <h2 class="section__title" id="achievements-title">Academic Achievements</h2>
+                <p class="section__subtitle">Awards, honors, and recognition</p>
+                <ul class="achievements__list">
+                    <li class="achievements__item">
+                        <span class="achievements__year">2025</span>
+                        <div class="achievements__content">
+                            <h3>Ranked 1st in Class (Current Standing)</h3>
+                            <p>Currently holding 1st position in the class with a CGPA of <strong>3.89</strong>.</p>
+                        </div>
+                    </li>
+                    <li class="achievements__item">
+                        <span class="achievements__year">2020</span>
+                        <div class="achievements__content">
+                            <h3>Merit Scholarship</h3>
+                            <p>Recipient of academic excellence scholarship</p>
+                        </div>
+                    </li>
+                    <li class="achievements__item">
+                        <span class="achievements__year">2019</span>
+                        <div class="achievements__content">
+                            <h3>International Student Summer Camp</h3>
+                            <p>Beijing, China — Attended as participant</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+<!-- Coursework Highlights Section -->
+<section class="section coursework" id="coursework" aria-labelledby="coursework-title">
+    <div class="container">
+        <h2 class="section__title" id="coursework-title">Coursework Highlights</h2>
+        <p class="section__subtitle">Key courses and areas of study</p>
+
+        <div class="coursework__grid">
+
+            <div class="coursework__card">
+                <h3>Data Structures</h3>
+                <p>Stacks, queues, trees, graphs, hashing, complexity analysis</p>
+            </div>
+
+            <div class="coursework__card">
+                <h3>Object-Oriented Programming (OOP)</h3>
+                <p>Encapsulation, inheritance, polymorphism, abstraction</p>
+            </div>
+
+            <div class="coursework__card">
+                <h3>Algorithm Design & Analysis</h3>
+                <p>Greedy algorithms, dynamic programming, divide & conquer</p>
+            </div>
+
+            <div class="coursework__card">
+                <h3>Software Requirements Engineering</h3>
+                <p>Requirement gathering, SRS documentation, UML modeling</p>
+            </div>
+
+            <div class="coursework__card">
+                <h3>Numerical Analysis</h3>
+                <p>Interpolation, numerical integration, error analysis</p>
+            </div>
+
+            <div class="coursework__card">
+                <h3>Operating Systems</h3>
+                <p>Process scheduling, memory management, concurrency</p>
+            </div>
+
+            <div class="coursework__card">
+                <h3>Computer Architecture</h3>
+                <p>Instruction sets, pipelining, memory hierarchy</p>
+            </div>
+
+            <div class="coursework__card">
+                <h3>Design Patterns</h3>
+                <p>Creational, structural, behavioral patterns, SOLID principles</p>
+            </div>
+
+            <div class="coursework__card">
+                <h3>Computer Networking</h3>
+                <p>TCP/IP, OSI model, routing, network protocols</p>
+            </div>
+
+            <div class="coursework__card">
+                <h3>Database Management Systems</h3>
+                <p>SQL, normalization, transactions, indexing</p>
+            </div>
+
+            <div class="coursework__card">
+                <h3>Artificial Intelligence</h3>
+                <p>Search algorithms, machine learning basics, knowledge representation</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 class="section__title" id="contact-title">Get In Touch</h2>
+                <p class="section__subtitle">I'd love to hear from you. Send me a message!</p>
+                <form class="contact__form" id="contact-form">
+                    <div class="form__group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+                    <div class="form__group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+                    <div class="form__group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's this about?">
+                    </div>
+                    <div class="form__group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__content">
+            <div class="footer__links">
+                <a href="https://github.com/Goutom-2022831012" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+                <a href="https://www.linkedin.com/in/goutom-dipto-5b2876356/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+                <a href="https://your-cv-deployment-link.com" target="_blank" rel="noopener noreferrer">View CV</a>
+            </div>
+            <p>&copy; 2025 Goutom Das Dipto. Built with HTML, CSS & JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
