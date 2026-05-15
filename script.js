@@ -69,6 +69,8 @@ document.head.appendChild(style);
 const homeLink = document.querySelector('.nav__link[href="#home"]');
 if (homeLink) homeLink.classList.add('active');
 
+emailjs.init('uuVMezGEMHVNBsjVb');
+
 const contactForm = document.getElementById('contact-form');
 
 contactForm.addEventListener('submit', (e) => {
@@ -84,8 +86,24 @@ contactForm.addEventListener('submit', (e) => {
         return;
     }
 
-    showFormMessage('Thank you! Your message has been sent. I\'ll get back to you soon.', 'success');
-    contactForm.reset();
+    const templateParams = {
+        from_name: name,
+        email: email,
+        reply_to: email,
+        subject: subject,
+        message: message,
+        to_email: '2022831012@student.sust.edu'
+    };
+
+    emailjs.send('service_jw9skhc', 'template_bgzk6ke', templateParams)
+        .then(() => {
+            showFormMessage('Thank you! Your message has been sent. I\'ll get back to you soon.', 'success');
+            contactForm.reset();
+        })
+        .catch((error) => {
+            console.error('EmailJS error:', error);
+            showFormMessage('Sorry, there was an error sending your message. Please try again later.', 'error');
+        });
 });
 
 function showFormMessage(text, type) {
